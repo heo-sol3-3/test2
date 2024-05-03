@@ -1,4 +1,15 @@
 /* footer */
+#footer{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #8AAB95;
+  padding: 60px 100px 60px;
+
+}
+
 #footer>ul{
   display: flex;
   flex-direction: column;
@@ -33,3 +44,16 @@
   cursor: pointer;
   transition: all 1s ease;
 }
+
+@media screen and (max-width: 1199px) {
+  #footer{
+    padding:30px 50px 30px;
+  }
+  }
+  @media screen and (max-width: 767px) {
+    #footer{
+      padding: 10px 20px 10px;
+    }
+
+  }
+  

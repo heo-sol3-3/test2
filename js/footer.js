@@ -1,11 +1,11 @@
-window.addEventListener('load', ()=>{
-  const topBt = document.querySelector(".topButton");
+const topBt = document.querySelector(".topButton");
 console.log(topBt);
 
 topBt.addEventListener("click",e=>{
   e.preventDefault();
+  currentPageIndex = 0;
   window.scroll({
-    top:0,
+    top:sections[0].offsetTop,
     left:0,
     behavior:"smooth"
   });
@@ -19,4 +19,3 @@ document.addEventListener("scroll",e=>{
     topBt.style.opacity = `1`;
   }
 })
-});

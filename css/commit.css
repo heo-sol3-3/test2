@@ -7,5 +7,32 @@
 
 html{font-family: "KoPubWorldBatang";}
 
-h2{font-size: 45px; text-align: center; font-weight: 700;}
-h3{font-size: 20px;font-weight: 700; color: #fff;}
+
+
+@media screen and (max-width: 1199px) {
+#header,#container,#footer{
+  font-size: 80%;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 15px;
+}
+section ul>li{
+  line-height: 0.8;
+}
+}
+@media screen and (max-width: 767px) {
+#header ,#container,#footer {
+  font-size: 70%;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 10px;
+}
+
+/*모바일 사이즈*/
+}
