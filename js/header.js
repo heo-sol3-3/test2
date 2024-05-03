@@ -1,3 +1,4 @@
+window.addEventListener("load",()=>{
 const headerWrap = document.querySelector(".headerWrap");
 console.log(headerWrap);
 const h1 = document.querySelector("h1");
@@ -52,4 +53,5 @@ menubt.addEventListener("click",e=>{
   e.preventDefault();
   mobwarp.classList.toggle("on");
   mobul.classList.toggle("on");
+})
 })

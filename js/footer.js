@@ -1,3 +1,6 @@
+window.addEventListener("load",()=>{
+
+
 const topBt = document.querySelector(".topButton");
 console.log(topBt);
 
@@ -18,4 +21,5 @@ document.addEventListener("scroll",e=>{
   }else{
     topBt.style.opacity = `1`;
   }
+})
 })

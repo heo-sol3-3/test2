@@ -1,14 +1,8 @@
+window.addEventListener("load",()=>{
 const sections = document.querySelectorAll("#container>section");
 const snbul = document.querySelector(".snb>ul");
 const snblis = document.querySelectorAll(".snb>ul>li");
 const footer = document.querySelector("#footer");
-
-
-
-
-
-
-
 
 
 let devHeight;
@@ -122,3 +116,4 @@ function scrollTo(obj,i){
     behavior:"smooth"
   });
 }
+})
