@@ -123,7 +123,7 @@ h3{font-size: 20px;font-weight: 700; color: #fff;}
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../images/content1.jpg) no-repeat;
+  background: url(https://github.com/heo-sol3-3/test2/blob/main/images/content1.jpg) no-repeat;
   opacity: 0.3;
 }
 /* section2 */
@@ -229,7 +229,7 @@ display: block;
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../images/content2.jpg) no-repeat;
+  background: url(https://github.com/heo-sol3-3/test2/blob/main/images/content2.jpg) no-repeat;
   width: 100%;
   height: 35%;
   background-size: cover;
@@ -267,7 +267,7 @@ section.content3{
 .content3>ul>li>a{
   display: block;
   padding: 20px;
-  background: url(../images/content3_1.png) no-repeat;
+  background: url(https://github.com/heo-sol3-3/test2/blob/main/images/content3_1.png) no-repeat;
   background-size: 100%;
   border-radius: 10px;
   color: #fff;
